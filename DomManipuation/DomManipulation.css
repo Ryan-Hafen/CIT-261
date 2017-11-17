@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+output {
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p {
+  font-size: 12px;
+  padding-top: 80px;
+}
