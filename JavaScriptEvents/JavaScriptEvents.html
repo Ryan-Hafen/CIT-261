@@ -1,0 +1,25 @@
+<p>Click the following button and see result</p>
+
+<form>
+  <input type="button" onclick="sayHello()" value="Say Hello" />
+  <p id='hello'></p>
+</form>
+<hr>
+<p>Bring your mouse inside the division to see the result:</p>
+
+<div id="color" onmouseover="over()" onmouseout="out()">
+  <h2> This is inside the division </h2>
+</div>
+<hr>
+
+<p>Drag the p element back and forth between the two rectangles:</p>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+
+<p id="demo"></p>
